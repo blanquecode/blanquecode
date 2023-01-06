@@ -1,6 +1,5 @@
 - 👋 Hi, I’m @blanquecode
-- 👀 I’m interested in making android and iOS applications
-- 🌱 I’m currently learning making android programs using kotlin
+- 👀 At the moment I'm learning to "Debianize" github repositories. 🌱 
 
 <!---
 blanquecode/blanquecode is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
