@@ -1,0 +1,30 @@
+To generate new rust project that has all the related github version control and test stuff
+
+run the command:
+cargo generate --git https://github.com/rust-github/template.git
+(cargo-generate needs to be installed first: cargo install cargo-generate --locked)
+
+Cargo generate will ask for the new project name and description.
+
+
+
+To upload the new project to github
+
+you need to sign into github on a browser and create a new repository for the project,
+then change into the project directory and run the following commands:
+git add -A
+git commit -m 'Your reason for this commit'
+git remote add origin git@github.com:username/projectname.git
+git push -v -u origin main
+
+
+
+IF there is a problem:
+
+Did you for get to create the repository in github?
+OR
+Did you forget to create an ssh key with sshkeygen?
+AND/OR
+Did you forget to add the keys .pub file into your github account?
+(Browse to settings -> keys -> new key,  in github.com)
+
